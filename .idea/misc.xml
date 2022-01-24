@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/et_style.xml" value="0.3828125" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/ic_add.xml" value="0.3828125" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/ic_add_secondary.xml" value="0.3828125" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/ic_add_stroke.xml" value="0.3828125" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/ic_add_style.xml" value="0.3828125" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/ic_refresh.xml" value="0.3828125" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/ic_return_style.xml" value="0.3828125" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/ic_send.xml" value="0.3828125" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/ic_tick_style.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/ic_trash.xml" value="0.3828125" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/indicator.xml" value="0.3828125" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/receive_msg_style.xml" value="0.3828125" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/round_corner.xml" value="0.3828125" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/rounded_corner.xml" value="0.3828125" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/send_btn_style.xml" value="0.3828125" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/send_layout_style.xml" value="0.3828125" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/send_msg_style.xml" value="0.3828125" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/activity_main.xml" value="0.35597826086956524" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/activity_main2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/activity_verify_number.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/add_user_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/drawer_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/fragment_add_group.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/fragment_dummy.xml" value="0.36277173913043476" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/fragment_group_chat.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/fragment_groups.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/fragment_home.xml" value="0.36277173913043476" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/fragment_user_chat.xml" value="0.35280797101449274" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/fragment_users.xml" value="0.35778985507246375" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/fragment_view_group.xml" value="0.33" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/fragment_view_profile.xml" value="0.33" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/fragment_view_user.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/group_receive_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/group_rv_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/group_user_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/message_receive_layout.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/message_send_layout.xml" value="0.3428442028985507" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/rv_item.xml" value="0.35778985507246375" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/toolbar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/layout/userlist_dialog_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Windows 10/AndroidStudioProjects/ChatApp/app/src/main/res/menu/more_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

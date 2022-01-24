@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <ImageView
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/text_layout"
+        android:src="@drawable/user"
+        android:id="@+id/sender_avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginLeft="10dp"
+        app:layout_constraintLeft_toRightOf="@id/sender_avatar"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/text_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/receive_msg_style"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp">
+
+        <TextView
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:id="@+id/sender_nickname"
+            android:textSize="16sp"
+            android:text="Yeager"
+            android:fontFamily="@font/text_font"
+            android:textColor="@color/white"
+            android:maxWidth="250dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/msg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:lineHeight="20dp"
+            android:maxWidth="250dp"
+            android:text="sd;andf;lsda;owsirdehgnf'[iaqwrehtgqerhtghret;wgth;pewrhg;owerhgt;owerh;ghwer;oghdf;lkngf;ksjg;lsdjfg;lkjsd;flgjsd;lkfgj;sdlfkjg;lsdfkjg;ahfo;jhas['dfjsd'[afj"
+            android:textColor="@color/white" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_layout"
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="20:00"
+        android:textColor="@color/grey"
+        android:textSize="14sp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

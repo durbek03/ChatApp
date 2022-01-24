@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="20dp"
+        android:layout_width="wrap_content"
+        android:background="@drawable/receive_msg_style"
+        android:layout_height="wrap_content">
+        <TextView
+            android:lineHeight="20dp"
+            android:textColor="@color/white"
+            android:text="sd;andf;lsda;owsirdehgnf'[iaqwrehtgqerhtghret;wgth;pewrhg;owerhgt;owerh;ghwer;oghdf;lkngf;ksjg;lsdjfg;lkjsd;flgjsd;lkfgj;sdlfkjg;lsdfkjg;ahfo;jhas['dfjsd'[afj"
+            android:id="@+id/msg"
+            android:maxWidth="250dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/time"
+        android:layout_marginTop="5dp"
+        android:textSize="14sp"
+        android:textColor="@color/grey"
+        android:text="20:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".VerifyNumberActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/custom_app_font"
+        android:text="PDP Gramm"
+        android:textColor="@color/primaryColor"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/ic_app"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <ImageView
+        android:id="@+id/ic_app"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/rounded_corner"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_app"
+        app:layout_constraintBottom_toTopOf="@id/tv1"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintWidth_percent="0.2" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:fontFamily="@font/text_font"
+        android:text="Confirmation code has been sent to number +998978858715"
+        android:textColor="@color/grey"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/code"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_app"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <EditText
+        android:textColor="@color/grey"
+        android:paddingLeft="10dp"
+        android:background="@drawable/et_style"
+        android:inputType="number"
+        android:id="@+id/code"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:hint="Code"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"/>
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_refresh"
+        app:layout_constraintEnd_toEndOf="@+id/code" />
+
+    <TextView
+        android:id="@+id/timer_prefix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:"
+        app:layout_constraintBottom_toBottomOf="@+id/timer"
+        app:layout_constraintEnd_toStartOf="@+id/timer" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/ic_refresh"
+        app:layout_constraintWidth_percent="0.06"
+        android:src="@drawable/ic_refresh"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintStart_toStartOf="@+id/code"
+        app:layout_constraintTop_toBottomOf="@+id/code" />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/tv_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resend code"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_refresh"
+        app:layout_constraintStart_toEndOf="@+id/ic_refresh"
+        app:layout_constraintTop_toTopOf="@+id/ic_refresh" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/custom_app_font"
+        android:text="PDP Gramm"
+        android:textColor="@color/primaryColor"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/ic_app"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <ImageView
+        android:id="@+id/ic_app"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/rounded_corner"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_app"
+        app:layout_constraintBottom_toTopOf="@id/tv1"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintWidth_percent="0.2" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:fontFamily="@font/text_font"
+        android:text="Sign in with number"
+        android:textColor="@color/grey"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/number"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_app"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/number"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Number"
+        app:layout_constraintBottom_toTopOf="@id/sign_in"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="phone" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/sign_in"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/secondaryColor"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintBottom_toTopOf="@id/or_tv"
+        app:layout_constraintTop_toBottomOf="@id/number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.3" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/left_divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/grey"
+        app:layout_constraintBottom_toBottomOf="@id/or_tv"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/or_tv"
+        app:layout_constraintTop_toTopOf="@id/or_tv" />
+
+    <TextView
+        android:id="@+id/or_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/text_font"
+        android:text="or"
+        android:textColor="@color/grey"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@id/ic_google"
+        app:layout_constraintLeft_toRightOf="@id/left_divider"
+        app:layout_constraintRight_toLeftOf="@id/right_divider"
+        app:layout_constraintTop_toBottomOf="@id/sign_in" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/right_divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/grey"
+        app:layout_constraintBottom_toBottomOf="@id/or_tv"
+        app:layout_constraintLeft_toRightOf="@id/or_tv"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/or_tv" />
+
+    <ImageView
+        android:id="@+id/ic_google"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_google"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/tv_continue"
+        app:layout_constraintTop_toBottomOf="@id/or_tv"
+        app:layout_constraintWidth_percent="0.1" />
+
+    <TextView
+        android:textSize="17sp"
+        android:id="@+id/tv_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/text_font"
+        android:text="Continue with Google"
+        android:textColor="@color/secondaryColor"
+        app:layout_constraintBottom_toBottomOf="@id/ic_google"
+        app:layout_constraintLeft_toRightOf="@id/ic_google"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/ic_google" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
